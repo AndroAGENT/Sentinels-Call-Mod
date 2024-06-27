@@ -1,2 +1,2 @@
-# Sentinels-Call-Mod
+# Sentinel's Call Mod
 DOOM in Minecraft: Java Edition!
