@@ -1,0 +1,14 @@
+{
+  "schemaVersion":  1,
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "package.ClassName"
+      }
+    ]
+  },
+  "depends": {
+    "fabric-language-kotlin": ">=1.11.0+kotlin.2.0.0"
+  }
+}
