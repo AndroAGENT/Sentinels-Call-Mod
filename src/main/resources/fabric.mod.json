@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "sentinels-call-mod",
+	"id": "sentinels-call",
 	"version": "${version}",
-	"name": "Sentinel's Call Mod",
+	"name": "Sentinel's Call",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,32 +12,23 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/sentinels-call-mod/icon.png",
+	"icon": "assets/sentinels-call/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			{
-				"value": "name.modid.SentinelsCallMod",
-				"adapter": "kotlin"
-			}
+			"name.modid.SentinelsCall"
 		],
 		"client": [
-			{
-				"value": "name.modid.SentinelsCallModClient",
-				"adapter": "kotlin"
-			}
+			"name.modid.SentinelsCallClient"
 		],
 		"fabric-datagen": [
-			{
-				"value": "name.modid.SentinelsCallModDataGenerator",
-				"adapter": "kotlin"
-			}
+			"name.modid.SentinelsCallDataGenerator"
 		]
 	},
 	"mixins": [
-		"sentinels-call-mod.mixins.json",
+		"sentinels-call.mixins.json",
 		{
-			"config": "sentinels-call-mod.client.mixins.json",
+			"config": "sentinels-call.client.mixins.json",
 			"environment": "client"
 		}
 	],
@@ -45,8 +36,7 @@
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
 		"java": ">=21",
-		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
+		"fabric-api": "*"
 	},
 	"suggests": {
 		"another-mod": "*"
