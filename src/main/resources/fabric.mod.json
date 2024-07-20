@@ -16,13 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"name.modid.SentinelsCall"
+			"sentinels_call.sc.SentinelsCall"
 		],
 		"client": [
-			"name.modid.SentinelsCallClient"
+			"sentinels_call.sc.SentinelsCallClient"
 		],
 		"fabric-datagen": [
-			"name.modid.SentinelsCallDataGenerator"
+			"sentinels_call.sc.SentinelsCallDataGenerator"
 		]
 	},
 	"mixins": [

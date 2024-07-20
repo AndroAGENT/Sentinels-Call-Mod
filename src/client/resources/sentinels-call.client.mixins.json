@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "name.modid.mixin.client",
+	"package": "sentinels_call.sc.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

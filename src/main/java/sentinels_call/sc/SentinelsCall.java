@@ -1,4 +1,4 @@
-package name.modid;
+package sentinels_call.sc;
 
 import net.fabricmc.api.ModInitializer;
 

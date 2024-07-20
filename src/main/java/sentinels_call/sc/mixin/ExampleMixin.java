@@ -1,4 +1,4 @@
-package name.modid.mixin;
+package sentinels_call.sc.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
