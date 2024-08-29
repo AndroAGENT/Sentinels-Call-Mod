@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "sentinels_call.sc.mixin.client",
+	"package": "com.minemaster.sentinelscall.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

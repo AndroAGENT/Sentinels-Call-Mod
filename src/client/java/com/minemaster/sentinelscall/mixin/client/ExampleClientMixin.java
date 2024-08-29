@@ -1,4 +1,4 @@
-package sentinels_call.sc.mixin.client;
+package com.minemaster.sentinelscall.mixin.client;
 
 import net.minecraft.client.MinecraftClient;
 import org.spongepowered.asm.mixin.Mixin;
