@@ -1,4 +1,4 @@
-package com.minemaster.sentinelscall.mixin;
+package minemaster.sentinelscallmod.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

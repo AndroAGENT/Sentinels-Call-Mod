@@ -1,4 +1,4 @@
-package com.minemaster.sentinelscall;
+package minemaster.sentinelscallmod;
 
 import net.fabricmc.api.ClientModInitializer;
 
