@@ -1,11 +1,12 @@
 {
 	"schemaVersion": 1,
 	"id": "sentinels-call-mod",
-	"version": "${version}",
+	"version": "1.0.0",
 	"name": "Sentinel's Call Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "DOOM in Minecraft Java Edition",
 	"authors": [
-		"Me!"
+		"MineMaster",
+		"AndroAGENT"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
@@ -16,7 +17,8 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"minemaster.sentinelscallmod.SentinelsCallMod"
+			"minemaster.sentinelscallmod.SentinelsCallMod",
+			"minemaster.sentinelscallmod.item.SentinelsCallModItems"
 		],
 		"client": [
 			"minemaster.sentinelscallmod.SentinelsCallModClient"

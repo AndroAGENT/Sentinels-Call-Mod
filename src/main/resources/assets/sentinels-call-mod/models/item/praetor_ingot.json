@@ -1,0 +1,6 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "sentinels-call-mod:item/praetor_ingot"
+    }
+}
